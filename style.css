@@ -1,0 +1,41 @@
+.container
+{
+	 font-family: verdana;
+	 font-style: 30px;
+}
+
+.form_name #submit{
+border-radius: 6px;
+cursor: pointer;
+	border-color: #226655;
+	size: 20px;
+	border:#224455;
+	font-size: 30px;
+	font-family: verdana;
+	background-color: #456;
+	width: auto;
+}
+
+#submit:hover{
+
+	background-color: #d93f5b;
+	color:black;
+}
+
+label{
+	font-size:20px;
+}
+input {
+  
+  padding: 10px;
+resize: vertical;
+  border-width: 20px;
+  border-color: #446;
+  align-items: center;
+  border: 5px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;  
+  margin-top: 6px;
+  
+}
+

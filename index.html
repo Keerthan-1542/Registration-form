@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regitration form</title>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body class="p-3 mb-2 bg-danger text-white bg-gradient-dark">
+	<h1 class="col" style="padding-top: 5px;padding-left: 50px;"> Registration Form </h1>
+<div class="container align-text-top" style="padding-top: 30px;">
+	
+
+<form class="col" name="form" id="form" method="post"  onsubmit="checkForm(this)" action="db.php" >
+<!-- Full name -->
+<p class="row">
+	<label>Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><input type="text" name="full_name" id="full_name" placeholder="Enter full_name"></p>
+<!-- Email -->
+<p class="row"><label>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label> <input type="email" name="email" id="email" placeholder="Enter email_id"  ></p>
+<!-- Password -->
+<p class="row"><label>Password&nbsp; </label> <input type="Password" name="password" id="password"  maxlength=8  placeholder="password"></p>
+<!-- DOB -->
+<p class="row"><label>DOB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+<input placeholder="Enter date"  name="dob" type="text" onfocus="(this.type='date')"   id="dob"></p>
+<!-- Gender -->
+
+	<label class="row" >Gender&nbsp;&nbsp; </label>
+		<p class="col">
+ <input type="radio" checked="checked"  value="Male" name="radio"><label>&nbsp;Male</label>
+  
+
+<br>
+
+  <input type="radio" value="Female" name="radio"><label>&nbsp;Female</label>
+  
+<br>
+  <input type="radio" value="Other" name="radio">
+<label >Other</label>
+  </p>
+</div>
+
+<p class="container" ><input type="submit" name="submit" id="submit" onsubmit ="" placeholder="Register"></p>
+</form>
+</div>
+
+
+
+
+
+
+
+</body>
+
+</html>
+
